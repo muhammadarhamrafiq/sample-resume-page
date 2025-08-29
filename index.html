@@ -14,22 +14,25 @@
 <body>
     <main aria-labelledby="main-heading"
         class="w-full bg-linear-150 from-cyan-500 from-[500px] via-white via-[500px] overflow-x-hidden">
-        <section id="aboutMe" aria-labelledby="aboutMe-heading" class="px-8 py-12">
+
+        <section id="aboutMe" aria-labelledby="aboutMe-heading" class="px-8 py-12 md:bg-white md:w-8/10 md:max-w-200 md:mx-auto md:mt-65 md:shadow-2xl md:py-8 ">
             <!-- Image -->
-            <div class="relative w-full px-4">
-                <img class="shadow-2xl shadow-gray-900/50" src="./resources/Mine.jpg"
+            <div class="relative w-full mx-4 px-4 md:float-left  md:px-0 md:ml-0 md:h-96 md:w-70">
+                <div class="shadow-2xl shadow-gray-900/50 md:absolute md:bottom-0 md:right-0 md:w-90 md:h-126">
+                    <img class="h-full w-full object-cover" src="./resources/Mine.jpg"
                     alt="Robert Williams (Photo by Creation Hill on Pexels)" />
+                </div>
                 <h1 id="main-heading"
-                    class="w-full absolute bottom-0 text-white text-8xl font-serif px-4 py-2 text-shadow-md text-shadow-gray-900">
+                    class="w-full absolute bottom-0 text-white text-6xl font-serif px-4 py-2 text-shadow-md text-shadow-gray-900 md:bottom-auto md:top-[-130px] md:text-6xl md:left-6/10 md:w-max">
                     Robert Williams</h1>
                 <!-- Image Attribution -->
-                <span class="w-fit absolute bg-black text-white px-2 py-1 rounded-md top-2 right-6 text-xs"
+                <span class="w-fit absolute bg-black text-white px-2 py-1 rounded-md top-2 right-6 text-xs md:bottom-2 md:top-auto md:right-2"
                     aria-hidden="true">Photo by <a class="underline"
                         href="https://www.pexels.com/photo/man-in-red-jacket-1681010/">Creation Hill</a></span>
             </div>
 
             <!-- Desciption -->
-            <h2 id="aboutMe-heading" class="w-full text-center text-6xl font-mono font-extrabold mt-12">About Me</h2>
+            <h2 id="aboutMe-heading" class="w-full text-center text-6xl font-mono font-extrabold mt-12 md:text-4xl">About Me</h2>
             <p class="mt-8 text-2xl text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
                 voluptate quo ea iure ut delectus odio, iste dolores pariatur cumque doloremque officiis repellendus
                 provident. Animi iure aspernatur velit consequatur suscipit autem perspiciatis. Quisquam beatae eius
@@ -61,15 +64,15 @@
         <section id="work" aria-labelledby="my-work-heading" class="mt-16 px-8 py-12">
             <h2 id="my-work-heading" class="w-full text-center text-6xl font-mono font-extrabold">My Work</h2>
 
-            <div class="px-6 py-8 grid grid-cols-1 gap-8">
+            <div class="px-6 py-8 grid grid-cols-1 gap-8 md:grid-cols-2">
                 <!-- Project 1 -->
                 <article class="flex flex-col w-full h-100 shadow-xl shadow-gray-900/40" aria-labelledby="project-1-heading">
                     <div class="w-full h-64 bg-purple-500 flex justify-center items-center relative">
-                        <span class="text-5xl text-white text-center">Screen shot of Project 1</span>
+                        <span class="text-3xl text-white text-center">Screen shot of Project 1</span>
                     </div>
 
                     <div class="flex justify-between items-center px-4 mt-3">
-                        <h3 id="project-1-heading" class="text-xl font-semibold"></h3>
+                        <h3 id="project-1-heading" class="text-xl font-semibold">
                             Project 1 Name
                         </h3>
 
@@ -99,11 +102,11 @@
                 <!-- Project 2 -->
                 <article class="flex flex-col w-full h-100 shadow-xl shadow-gray-900/40" aria-labelledby="project-2-heading">
                     <div class="w-full h-64 bg-indigo-500 flex justify-center items-center relative">
-                        <span class="text-5xl text-white text-center">Screen shot of Project 2</span>
+                        <span class="text-3xl text-white text-center">Screen shot of Project 2</span>
                     </div>
 
                     <div class="flex justify-between items-center px-4 mt-3">
-                        <h3 id="project-2-heading" class="text-xl font-semibold"></h3>
+                        <h3 id="project-2-heading" class="text-xl font-semibold">
                             Project 2 Name
                         </h3>
 
@@ -133,11 +136,11 @@
                 <!-- Project 3 -->
                 <article class="flex flex-col w-full h-100 shadow-xl shadow-gray-900/40" aria-labelledby="project-3-heading">
                     <div class="w-full h-64 bg-green-500 flex justify-center items-center relative">
-                        <span class="text-5xl text-white text-center">Screen shot of Project 3</span>
+                        <span class="text-3xl text-white text-center">Screen shot of Project 3</span>
                     </div>
 
                     <div class="flex justify-between items-center px-4 mt-3">
-                        <h3 id="project-3-heading" class="text-xl font-semibold"></h3>
+                        <h3 id="project-3-heading" class="text-xl font-semibold">
                             Project 3 Name
                         </h3>
 
@@ -167,11 +170,11 @@
                 <!-- Project 4 -->
                 <article class="flex flex-col w-full h-100 shadow-xl shadow-gray-900/40" aria-labelledby="project-4-heading">
                     <div class="w-full h-64 bg-red-500 flex justify-center items-center relative">
-                        <span class="text-5xl text-white text-center">Screen shot of Project 4</span>
+                        <span class="text-3xl text-white text-center">Screen shot of Project 4</span>
                     </div>
 
                     <div class="flex justify-between items-center px-4 mt-3">
-                        <h3 id="project-4-heading" class="text-xl font-semibold"></h3>
+                        <h3 id="project-4-heading" class="text-xl font-semibold">
                             Project 4 Name
                         </h3>
 
@@ -201,11 +204,11 @@
                 <!-- Project 5 -->
                 <article class="flex flex-col w-full h-100 shadow-xl shadow-gray-900/40" aria-labelledby="project-5-heading">
                     <div class="w-full h-64 bg-yellow-500 flex justify-center items-center relative">
-                        <span class="text-5xl text-white text-center">Screen shot of Project 5</span>
+                        <span class="text-3xl text-white text-center">Screen shot of Project 5</span>
                     </div>
 
                     <div class="flex justify-between items-center px-4 mt-3">
-                        <h3 id="project-5-heading" class="text-xl font-semibold"></h3>
+                        <h3 id="project-5-heading" class="text-xl font-semibold">
                             Project 5 Name
                         </h3>
 
@@ -235,11 +238,11 @@
                 <!-- Project 6 -->
                 <article class="flex flex-col w-full h-100 shadow-xl shadow-gray-900/40" aria-labelledby="project-6-heading">
                     <div class="w-full h-64 bg-sky-500 flex justify-center items-center relative">
-                        <span class="text-5xl text-white text-center">Screen shot of Project 6</span>
+                        <span class="text-3xl text-white text-center">Screen shot of Project 6</span>
                     </div>
 
                     <div class="flex justify-between items-center px-4 mt-3">
-                        <h3 id="project-6-heading" class="text-xl font-semibold"></h3>
+                        <h3 id="project-6-heading" class="text-xl font-semibold">
                             Project 6 Name
                         </h3>
 
@@ -268,8 +271,8 @@
             </div>
         </section>
 
-        <section id="contact" aria-labelledby="contact-heading" class="mt-16 pt-8 bg-cyan-500">
-            <div id="contact-content" class="px-8 py-12">
+        <section id="contact" aria-labelledby="contact-heading" class="mt-16 pt-8 bg-cyan-500 md:flex md:px-8 md:py-8">
+            <div id="contact-content" class="px-8 py-12 md:w-6/10">
                 <h2 id="contact-heading" class="w-full text-center text-6xl font-mono font-extrabold text-white">Contact
                     Me</h2>
                 <p class="mt-4 text-xl text-white">
@@ -308,8 +311,8 @@
                     </li>
                 </ul>
             </div>
-            <div id="contact-image" class="relative">
-                <img src="./resources/contact-image.jpg" alt="Contact Image (by JÉSHOOTS on pexels)">
+            <div id="contact-image" class="relative md:w-4/10">
+                <img class="w-full h-full object-cover" src="./resources/contact-image.jpg" alt="Contact Image (by JÉSHOOTS on pexels)">
                 <span class="w-fit absolute bg-black text-white px-2 py-1 rounded-md bottom-2 right-2 text-xs"
                     aria-hidden="true">Photo by <a class="underline"
                         href="https://www.pexels.com/photo/person-holding-smartphone-4831/">JÉSHOOTS</a></span>
