@@ -1,0 +1,45 @@
+ <section id="aboutMe" aria-labelledby="aboutMe-heading" class="px-8 py-12 md:bg-white md:w-8/10 md:max-w-200 md:mx-auto md:mt-65 md:shadow-2xl md:py-8 lg:max-w-none lg:w-7/10">
+            <!-- Image -->
+            <div class="relative w-full mx-4 px-4 md:float-left  md:px-0 md:ml-0 md:h-96 md:w-70">
+                <div class="shadow-2xl shadow-gray-900/50 md:absolute md:bottom-0 md:right-0 md:w-90 md:h-126 lg:bottom-auto lg:top-[50%] lg:transform lg:-translate-y-1/2">
+                    <img class="h-full w-full object-cover" src="./resources/Mine.jpg"
+                    alt="Robert Williams (Photo by Creation Hill on Pexels)" />
+                </div>
+                <h1 id="main-heading"
+                    class="w-full absolute bottom-0 text-white text-6xl font-serif px-4 py-2 text-shadow-md text-shadow-gray-900 md:bottom-auto md:top-[-130px] md:text-6xl md:left-6/10 md:w-max">
+                    Robert Williams</h1>
+                <!-- Image Attribution -->
+                <span class="w-fit absolute bg-black text-white px-2 py-1 rounded-md top-2 right-6 text-xs md:bottom-2 md:top-auto md:right-2"
+                    aria-hidden="true">Photo by <a class="underline"
+                        href="https://www.pexels.com/photo/man-in-red-jacket-1681010/">Creation Hill</a></span>
+            </div>
+
+            <!-- Desciption -->
+            <h2 id="aboutMe-heading" class="w-full text-center text-6xl font-mono font-extrabold mt-12 md:text-4xl">About Me</h2>
+            <p class="mt-8 text-2xl text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+                voluptate quo ea iure ut delectus odio, iste dolores pariatur cumque doloremque officiis repellendus
+                provident. Animi iure aspernatur velit consequatur suscipit autem perspiciatis. Quisquam beatae eius
+                animi qui facilis minima ipsa id odit, architecto nihil ad cum rerum dicta. Modi, possimus.</p>
+
+            <!-- icons list -->
+            <ul class="flex justify-center gap-8 mt-8">
+
+                <li>
+                    <a href="#" aria-label="Github" class="text-black hover:text-gray-600">
+                        <i class="devicon-github-original text-4xl"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" aria-label="LinkedIn" class="text-black hover:text-gray-600">
+                        <i class="devicon-linkedin-plain text-4xl"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" aria-label="X (Formerly Twitter)" class="text-black hover:text-gray-600">
+                        <i class="devicon-twitter-original text-4xl"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
